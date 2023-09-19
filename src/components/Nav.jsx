@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="bg-custom-blue p-3 flex justify-between items-center">
+      <div className="bg-custom-blue p-3 md:p-0 flex justify-between items-center">
         <div className="mx-auto">
           <a href="">
             <img className="" src={navimg} height={50} width={80} alt="" />
@@ -84,7 +84,9 @@ const Nav = () => {
               </a>
             </ul>
             <div className="mt-20 m-5">
-            <button className=" text-white bg-custom-blue p-6 w-60 rounded-br-full hover:bg-orange-700"><h3>+ Submit Property</h3></button>
+              <button className=" text-white bg-custom-blue p-6 w-60 rounded-br-full hover:bg-orange-700">
+                <h3>+ Submit Property</h3>
+              </button>
             </div>
           </div>
         )}
