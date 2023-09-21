@@ -24,7 +24,8 @@ export default {
       // => @media (min-width: 1536px) { ... }
   
       'md': '800px',
-      'sm-360': '360px', 
+      // 'sme': '360px'
+      // 'sm-360': '360px', 
     },
 
     extend: {
@@ -37,6 +38,7 @@ export default {
        
 
       },
+      backgroundColor: ['hover'],
       fontWeight:{
         400:"400",
         700:"700"

@@ -55,7 +55,7 @@ const Nav = () => {
 
         {/* Off-Canvas Menu */}
         {isOpen && (
-          <div className="md:hidden fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-10 overflow-y-auto opacity-90">
+          <div className="md:hidden sme:w-10 fixed top-0 left-0 h-full w-80 bg-white shadow-lg z-10 overflow-y-auto opacity-90">
             <h3 className="text-center mt-2">Menu </h3>
             <ul className="text-black p-4 text-lg mt-3 space-y-5 font-Sans">
               <a href="">
