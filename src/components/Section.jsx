@@ -39,16 +39,16 @@ const Section = () => {
           </h2>
         </div>
         <div className="mt-5 p-2 md:text-xl text-lg absolute font-Helvetica text-white font-700">
-            <h3 className="md:mt-24 mt-44">#116M</h3>
-            <h2 className="mt-2">House for Sale in lekki Phase  2-4 Bedroom  Detached Duplexes with BQ and Study Room</h2>
+          <h3 className="md:mt-24 mt-44">#116M</h3>
+          <h2 className="mt-2">
+            House for Sale in lekki Phase 2-4 Bedroom Detached Duplexes with BQ
+            and Study Room
+          </h2>
         </div>
-        
       </div>
-    
+      <div className="p-4 md:p-10 bg-slate-100"></div>
     </div>
   );
 };
 
 export default Section;
-
-
