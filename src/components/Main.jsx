@@ -71,7 +71,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row md:p-4 bg-white mt-4 rounded-3xl w-80 md:w-auto  space-x-5  md:rounded-full">
+        <div className="flex flex-col md:flex-row md:p-2 bg-white mt-4 rounded-3xl w-80 md:w-auto  space-x-5  md:rounded-full">
           <input
             className="form-control rounded-full w-72 mx-3 md:w-64 p-3 border border-black border-opacity-50 mt-3 focus:border-opacity-100 font-Nunito text-blue-800"
             type="text"
@@ -92,7 +92,7 @@ const Main = () => {
             </h2>
             <button
               onClick={handleSearch}
-              className="bg-red-500 text-white rounded-full w-52 mx-3 md:w-52"
+              className="bg-red-500 text-white rounded-full w-52 mx-3 md:w-52 hover:bg-green-400"
             >
               Search
             </button>

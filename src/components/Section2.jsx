@@ -12,8 +12,8 @@ const Section2 = () => {
 
   return (
     <div className="relative" style={back3}>
-        <div className="absolute inset-0 bg-blue-950 opacity-50"></div>
-      <div >
+      <div className="absolute inset-0 bg-blue-950 opacity-50"></div>
+      <div>
         <div className="absolute inset-0">
           <h3 className=" font-Aclonica mt-16 text-xl text-white  md:text-4xl font-700 text-center">
             What are you looking for?
@@ -22,10 +22,6 @@ const Section2 = () => {
             We provide full service at every step
           </h4>
         </div>
-        
-
-       
-       
       </div>
     </div>
   );
