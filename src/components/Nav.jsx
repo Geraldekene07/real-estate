@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <div className="bg-custom-blue p-3 md:p-0 flex justify-between items-center">
         <div className="mx-auto">
           <a href="">

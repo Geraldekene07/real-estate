@@ -9,6 +9,30 @@ li{
 .find{
   color: #FFFFFF;
   font-family: "Aclonica";
-  /* font-size: 55px;
-    font-weight: normal; */
 }
+.Nav{
+  position: fixed; top: 0; left: 0; width: 100%;
+}
+.inner {
+  width: 80px;
+  color: white;
+  padding: 3px;
+  border-radius: 2px;
+  /* background: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%); */
+}
+.innermain{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  /* margin-top: 5px; */
+}
+.zoom-on-hover:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.5s ease; /* Adjust the transition duration as needed */
+}
+.zoom-on-hover {
+  transition: transform 0.3s ease-out; /* Use the same duration as the hover state */
+}
+
+
+

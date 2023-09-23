@@ -46,7 +46,8 @@ export default {
       },
       colors:{
         'custom-blue': '#000040',
-        'bg':'transparent'
+        'bg':'transparent',
+        'linear-gradient': '(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)',
       }
     },
   },
