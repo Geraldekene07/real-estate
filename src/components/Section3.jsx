@@ -20,7 +20,7 @@ const Section3 = () => {
      <div className="">
       <div className="p-3 flex-wrap flex gap-4 justify-around">
 
-      <div className="flex gap-4 shadow md:w-80 w-full rounded">
+      <div className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded">
         <div className="">
           <img className="h-full w-[150px]" src={ikoyi}  alt="" />
         </div>
@@ -30,7 +30,7 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="flex gap-4 shadow md:w-80 w-full rounded">
+      <div className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded">
         <div className="">
           <img className="h-full w-[150px]" src={Ajah}  alt="" />
         </div>
@@ -40,7 +40,7 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="flex gap-4 shadow md:w-80 w-full rounded">
+      <div className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded">
         <div className="">
           <img className="h-full w-[150px]"  src={Epe}  alt="" />
         </div>
@@ -50,7 +50,7 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="flex gap-4 shadow md:w-80 w-full rounded">
+      <div className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded">
         <div className="">
           <img className="h-full w-[150px]" src={ibeju} alt="" />
         </div>
@@ -59,7 +59,7 @@ const Section3 = () => {
           <h3>0 Properties</h3>
         </div>
       </div>
-      <div className="flex gap-4 shadow md:w-80 w-full rounded">
+      <div className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded">
         <div className="">
           <img className="h-full w-[150px]" src={lekki}  alt="" />
         </div>
