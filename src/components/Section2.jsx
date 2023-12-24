@@ -28,19 +28,13 @@ const Section2 = () => {
             We provide full service at every step
           </h4>
           <div className="hidden lg:block">
-          <Lgcarousel/>
+            <Lgcarousel />
           </div>
           <div className="lg:hidden">
-            <Smcarousel/>
-
+            <Smcarousel />
           </div>
-
-        
         </div>
       </div>
-      {/* <div className="p-20">
-
-      </div> */}
     </div>
   );
 };

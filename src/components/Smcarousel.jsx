@@ -1,23 +1,44 @@
 import { Carousel } from "@material-tailwind/react";
+import { MdApartment } from "react-icons/md";
+import { FcHome } from "react-icons/fc";
+import { FaHotel } from "react-icons/fa";
+import { RiHotelLine } from "react-icons/ri";
  
 export function Smcarousel() {
   return (
     <Carousel className="rounded-xl">
-      <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-        alt="image 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt="image 2"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt="image 3"
-        className="h-full w-full object-cover"
-      />
+      <div className="card p-16 m-3">
+              <div className="bg-new-blue h-20 w-20 rounded-full  hover:bg-orange-600">
+                <a className="text-white flex justify-center" href="">
+                  <MdApartment className="text-6xl mt-2" />
+                </a>
+              </div>
+              <h3 className="text-new-blue mt-2">Apartment</h3>
+            </div>
+            <div className="card p-16 m-3">
+              <div className="bg-new-blue h-20 w-20 rounded-full hover:bg-orange-600">
+                <a className="text-white flex justify-center" href="">
+                  <FcHome className="text-6xl mt-1" />
+                </a>
+              </div>
+              <h3 className="text-new-blue mt-2">Terrace</h3>
+            </div>
+            <div className="card p-16 m-3">
+              <div className="bg-new-blue h-20 w-20  rounded-full hover:bg-orange-600">
+                <a className="text-white flex justify-center" href="">
+                  <FaHotel className="text-5xl mt-3" />
+                </a>
+              </div>
+              <h3 className="text-new-blue mt-2">Duplex</h3>
+            </div>
+            <div className="card p-16 m-3">
+              <div className="bg-new-blue h-20 w-20 rounded-full hover:bg-orange-600">
+                <a className="text-white flex justify-center" href="">
+                  <RiHotelLine className="text-6xl mt-2 " />
+                </a>
+              </div>
+              <h3 className="text-new-blue mt-2">Land</h3>
+            </div>
     </Carousel>
   );
 }
