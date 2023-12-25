@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import navimg from "../assets/kgl.png";
 
-
-
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
