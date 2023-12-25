@@ -6,7 +6,7 @@ import { RiHotelLine } from "react-icons/ri";
 
 export function Smcarousel() {
   return (
-    <Carousel transition={{ duration: 2 }} className="rounded-xl">
+    <Carousel transition={{ duration: 1 }} className="rounded-xl">
       <div className="card p-16 m-3">
         <div className="bg-new-blue h-20 w-20 mx-auto rounded-full  hover:bg-orange-600">
           <a className="text-white flex justify-center" href="">
