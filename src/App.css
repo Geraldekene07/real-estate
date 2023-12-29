@@ -42,15 +42,15 @@ li {
   background-image: linear-gradient(180deg, #5f4c4c00 0%, #ffffff 100%);
   border-color: #ffffff;
 }
-.scrollhider{
+
+.scrollhider {
   scrollbar-color: transparent transparent;
   scrollbar-width: thin;
-  
 }
 .scrollhider::-webkit-scrollbar {
   width: 0px; /* Adjust the width as needed */
 }
 
 .scrollhider::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: transparent;
 }
