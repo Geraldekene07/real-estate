@@ -14,7 +14,8 @@ const Section3 = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="mb-40">
+      <div className="mt-20 bg-blue-gray-500"></div>
       <div>
         <h1 className="font-Aclonica mt-16 text-xl  md:text-4xl font-700 text-center">
           Find Properties in These Cities
