@@ -69,6 +69,7 @@ module.exports = withMT({
       },
       colors: {
         "custom-blue": "#000040",
+        "purple": "#060C1F",
         bg: "transparent",
         "linear-gradient": "(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
         "new-blue": "#0003C5",
