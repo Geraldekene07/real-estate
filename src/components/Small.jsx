@@ -1,31 +1,28 @@
-import React from 'react'
+import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import first from "../assets/first.jpeg";
-import second from "../assets/second.png"
-import third from "../assets/third.jpg"
+import second from "../assets/second.png";
+import third from "../assets/third.jpg";
 
-
- 
- export function Small() {
-   return (
-     <Carousel
-       className="rounded-xl"
-       navigation={({ setActiveIndex, activeIndex, length }) => (
-         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
-           {new Array(length).fill("").map((_, i) => (
-             <span
-               key={i}
-               className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
-                 activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
-               }`}
-               onClick={() => setActiveIndex(i)}
-             />
-           ))}
-         </div>
-       )}
-       
-     >
-       <div className="bg-white shadow-md rounded-md p-2 mx-4">
+export function Small() {
+  return (
+    <Carousel
+      className="rounded-xl"
+      navigation={({ setActiveIndex, activeIndex, length }) => (
+        <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+          {new Array(length).fill("").map((_, i) => (
+            <span
+              key={i}
+              className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+              }`}
+              onClick={() => setActiveIndex(i)}
+            />
+          ))}
+        </div>
+      )}
+    >
+      <div className="bg-white shadow-md rounded-md p-2 mx-4">
         <img
           src={first}
           alt=""
@@ -45,7 +42,6 @@ import third from "../assets/third.jpg"
         </ul>
       </div>
 
-
       <div className="bg-white shadow-md rounded-md p-2 mx-4">
         <img
           src={second}
@@ -54,7 +50,10 @@ import third from "../assets/third.jpg"
         />
         <div className="card-body">
           <h5 className="text-xl mb-2">Real Estate Agent</h5>
-          <p className=" font-700">Real Estate Agent in Lagos: Your Gateway to Exceptional Property Deals</p>
+          <p className=" font-700">
+            Real Estate Agent in Lagos: Your Gateway to Exceptional Property
+            Deals
+          </p>
         </div>
         <ul className="list-group list-group-flush">
           <div className="card-body flex justify-between mt-5">
@@ -66,7 +65,7 @@ import third from "../assets/third.jpg"
         </ul>
       </div>
 
-       <div className="bg-white shadow-md rounded-md p-2 mx-4">
+      <div className="bg-white shadow-md rounded-md p-2 mx-4">
         <img
           src={third}
           alt=""
@@ -74,7 +73,9 @@ import third from "../assets/third.jpg"
         />
         <div className="card-body">
           <h5 className="text-xl mb-2">House For Sale in Lagos</h5>
-          <p className=" font-700">House for Sale in Lagos: Your Guide to Finding Your Dream Home</p>
+          <p className=" font-700">
+            House for Sale in Lagos: Your Guide to Finding Your Dream Home
+          </p>
         </div>
         <ul className="list-group list-group-flush">
           <div className="card-body flex justify-between mt-5">
@@ -85,10 +86,8 @@ import third from "../assets/third.jpg"
           </div>
         </ul>
       </div>
-     </Carousel>
-   );
- }
-    
- 
+    </Carousel>
+  );
+}
 
-export default Small
+export default Small;

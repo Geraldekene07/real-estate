@@ -1,9 +1,6 @@
 import React from "react";
 import Small from "./Small";
-import Big from "./Big"
-// import first from "../assets/first.jpeg";
-// import second from "../assets/second.jpeg"
-// import third from "../assets/third.jpeg"
+import Big from "./Big";
 
 const Section6 = () => {
   return (
@@ -17,10 +14,10 @@ const Section6 = () => {
         </p>
       </div>
       <div className="lg:hidden">
-        <Small/>
+        <Small />
       </div>
       <div className="hidden lg:block">
-        <Big/>
+        <Big />
       </div>
     </div>
   );
