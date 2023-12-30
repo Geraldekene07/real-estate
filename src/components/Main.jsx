@@ -31,7 +31,7 @@ const Main = () => {
 
   return (
     <div className="relative " style={backgroundstyle}>
-      <div className="absolute inset-0 bg-custom-blue opacity-50"></div>
+      <div className=" absolute inset-0 bg-custom-blue opacity-50"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
         <h1 className="find text-3xl mt--5  md:text-6xl text-center md:text-left">
           Find The Perfect Property Here
