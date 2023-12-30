@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import backgroundimg from "../assets/House-for-sale-in-Lekki2.jpeg";
 
+
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
 
