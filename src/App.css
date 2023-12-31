@@ -22,7 +22,11 @@ li {
   color: white;
   padding: 3px;
   border-radius: 2px;
-  background: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+  background: linear-gradient(
+    135deg,
+    rgb(2, 3, 129) 0%,
+    rgb(40, 116, 252) 100%
+  );
 }
 .innermain {
   display: flex;
@@ -55,6 +59,22 @@ li {
 .scrollhider::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-.register{
-  background-image: linear-gradient(90deg, #FF6B25 0%, #D10909 100%);
+.register {
+  background-image: linear-gradient(90deg, #ff6b25 0%, #d10909 100%);
+}
+
+.main .imageDiv img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: 2s ease;
+}
+.main .imageDiv:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.main :hover {
+  transition: background-color 0.3s ease;
+}
+.main .imageDiv {
+  overflow: hidden;
 }

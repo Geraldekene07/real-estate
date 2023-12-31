@@ -22,12 +22,14 @@ export function Small() {
         </div>
       )}
     >
-      <div className="bg-white shadow-md rounded-md p-2 mx-4">
-        <img
-          src={first}
-          alt=""
-          className="w-full h-50 object-cover mb-4 rounded-md "
-        />
+      <div className="main bg-white shadow-md rounded-md p-2 mx-4">
+        <div className="imageDiv">
+          <img
+            src={first}
+            alt=""
+            className="w-full h-50 object-cover mb-4 rounded-md "
+          />
+        </div>
         <div className="card-body">
           <h5 className="text-xl mb-2">Lekki Houses for sale</h5>
           <p className=" font-700">Explore the best Lekki houses for Sale</p>
@@ -42,12 +44,14 @@ export function Small() {
         </ul>
       </div>
 
-      <div className="bg-white shadow-md rounded-md p-2 mx-4">
-        <img
-          src={second}
-          alt=""
-          className="w-full h-50 object-cover mb-4 rounded-md "
-        />
+      <div className=" main bg-white shadow-md rounded-md p-2 mx-4">
+        <div className="imageDiv">
+          <img
+            src={second}
+            alt=""
+            className="w-full h-50 object-cover mb-4 rounded-md "
+          />
+        </div>
         <div className="card-body">
           <h5 className="text-xl mb-2">Real Estate Agent</h5>
           <p className=" font-700">
@@ -65,12 +69,14 @@ export function Small() {
         </ul>
       </div>
 
-      <div className="bg-white shadow-md rounded-md p-2 mx-4">
-        <img
-          src={third}
-          alt=""
-          className="w-full h-50 object-cover mb-4 rounded-md "
-        />
+      <div className=" main bg-white shadow-md rounded-md p-2 mx-4">
+        <div className="imageDiv">
+          <img
+            src={third}
+            alt=""
+            className="w-full h-50 object-cover mb-4 rounded-md "
+          />
+        </div>
         <div className="card-body">
           <h5 className="text-xl mb-2">House For Sale in Lagos</h5>
           <p className=" font-700">

@@ -29,9 +29,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
+            className="flex gap-4 main shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={ikoyi} alt="" />
             </div>
             <div className="mt-3">
@@ -43,9 +43,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
+            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 main w-full rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={Ajah} alt="" />
             </div>
             <div className="mt-3">
@@ -57,9 +57,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
+            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 main w-full rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={Epe} alt="" />
             </div>
             <div className="mt-3">
@@ -71,9 +71,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
+            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 main w-full rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={ibeju} alt="" />
             </div>
             <div className="mt-3">
@@ -85,9 +85,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 w-full rounded"
+            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300 md:w-80 main w-full rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={lekki} alt="" />
             </div>
             <div className="mt-3">
@@ -98,9 +98,9 @@ const Section3 = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
-            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300  md:w-80 w-full rounded"
+            className="flex gap-4 shadow-sm  hover:!shadow-2xl transition-shadow ease-in-out duration-300  md:w-80 w-full main rounded"
           >
-            <div className="">
+            <div className="imageDiv">
               <img className="h-full w-[150px]" src={magodo} alt="" />
             </div>
             <div className="mt-3">

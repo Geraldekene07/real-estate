@@ -11,6 +11,7 @@ const Section = () => {
     minWidth: "20%",
     height: "50vh",
     borderRadius: "5px",
+    class: "imageDiv",
   };
 
   return (
@@ -25,7 +26,7 @@ const Section = () => {
         </h4>
       </div>
       <div
-        className="relative w-80 mt-5 mx-auto md:mx-0 md:w-10  md:m-20 zoom-on-hover"
+        className="relative w-80 mt-5 mx-auto md:mx-0 md:w-10   md:m-20 main"
         style={backgroundstyle2}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
